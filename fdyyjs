@@ -3,7 +3,7 @@
 hostname= gateway-api.dushu365.com
 
 
-https://gateway-api.dushu365.com（\/smart-orch\/program\/v100\/info)
+https://gateway-api.dushu365.com（\/smart-orch\/program\/v100\/info) url script-response-body 
 
 */
 
