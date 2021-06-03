@@ -6,13 +6,11 @@
 
 [mitm]
 hostname= gateway-api.*.com,api.*.com
-
+ 
 
 
 
 */
-
-
 
 body = $response.body.replace(/isBuyed":\w+/g, 'isBuyed":true').replace(/buyed":\w+/g, 'buyed":true').replace(/trial":\w+/g, 'trial":true').replace(/free":\w+/g, 'free":true').replace(/hasBuy":\w+/g, 'hasBuy":1')                   ;
 $done({body});
