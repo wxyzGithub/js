@@ -15,11 +15,7 @@ MITM = gateway-api.dushu365.com
 */
 
 var body = $response.body;
-
-
 body=body.replace(/free":\w+/g,'free":true');
-
-
 $done({body});
 
 
