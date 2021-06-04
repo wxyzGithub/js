@@ -1,6 +1,7 @@
-#船长著作 2020.06.04
-
 /*
+船长著作 2020.06.04
+
+
 樊登读书-解锁课程fdjske
 
 MITM = gateway-api.dushu365.com
@@ -15,9 +16,7 @@ MITM = gateway-api.dushu365.com
 */
 
 var body = $response.body;
+
 body=body.replace(/free":\w+/g,'free":true');
+
 $done({body});
-
-
-
-
